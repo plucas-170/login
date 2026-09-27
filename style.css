@@ -1,0 +1,55 @@
+body {
+    background-image: url('backiee-174999.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    font-family:Arial, Helvetica, sans-serif;
+    height: 500px;
+    width: 400px;
+    border-radius: 8px;
+    border: 2px solid rgb(255, 57, 57);
+    background-color:rgb(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    display: grid;
+    place-items: center;
+}
+
+input {
+    border: 2px solid rgb(255, 57, 57);
+    outline: none;
+}
+
+h1 {
+    color: rgb(255, 57, 57);
+}
+p1 {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+a{
+    color: rgb(255, 0, 0);
+}
+
+button {
+    align-items: center;
+    border-color: red;
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+}
+
+input {
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+}
